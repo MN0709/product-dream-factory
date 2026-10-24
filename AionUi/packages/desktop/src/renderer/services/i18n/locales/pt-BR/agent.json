@@ -1,0 +1,72 @@
+{
+  "health": {
+    "detectedError": "Erro detectado com o agente atual ({{agent}})",
+    "autoSwitching": ". O sistema tentará alternar automaticamente.",
+    "evaluating": "Avaliando a latência da rede e a disponibilidade do modelo...",
+    "checking": "Verificando o endpoint de {{agent}}...",
+    "foundBest": "Melhor alternativa encontrada",
+    "recommendSwitch": "Recomendado",
+    "available": "Disponível",
+    "lowLatency": "Baixa Latência",
+    "mediumLatency": "Média Latência",
+    "highLatency": "Alta Latência",
+    "bestMatch": "Melhor Combinação",
+    "noAvailable": "Nenhum agente disponível no ambiente atual",
+    "checkConfig": "Por favor, verifique a configuração ou tente novamente mais tarde"
+  },
+  "setup": {
+    "connectionError": "Erro de Conexão",
+    "notConfigured": "{{agent}} não está configurado",
+    "authRequired": "Autenticação ou chave de API é necessária para usar este agente.",
+    "findingAlternatives": "Buscando alternativas disponíveis...",
+    "checkingAgent": "Verificando {{agent}}...",
+    "alternativesFound": "{{count}} alternativas disponíveis encontradas",
+    "autoSwitching": "Alternando automaticamente para o melhor agente disponível...",
+    "configError": "Erro de configuração. Por favor, verifique suas configurações ou selecione uma alternativa:",
+    "noAlternatives": "Nenhum agente disponível encontrado",
+    "configureFirst": "Por favor, configure um agente nas Configurações primeiro.",
+    "switching": "Alternando agente..."
+  },
+  "model": {
+    "switchSuccess": "Modelo alterado com sucesso",
+    "switchFailed": "Falha ao alternar o modelo",
+    "searchPlaceholder": "Buscar modelos",
+    "noResults": "Nenhum modelo correspondente"
+  },
+  "config": {
+    "setting": "Aplicando configuração...",
+    "commandAck": "Comando enviado, mas o estado ainda não foi confirmado. Atualize ou tente novamente mais tarde.",
+    "timeout": "A confirmação da configuração expirou. O estado anterior continua sendo exibido.",
+    "busy": "Outra configuração está sendo aplicada. Tente novamente mais tarde.",
+    "failed": "Falha ao aplicar a configuração. O estado anterior continua sendo exibido."
+  },
+  "thoughtLevel": {
+    "label": "Nível de raciocínio",
+    "switchSuccess": "Nível de raciocínio alterado",
+    "switchFailed": "Falha ao alterar o nível de raciocínio"
+  },
+  "warmup": {
+    "clickToWake": "Clique para ativar este membro"
+  },
+  "runtimeRestart": {
+    "tooltip": "Reconectar agente",
+    "confirmContent": "Reinicia o processo do agente para adotar alterações externas de configuração da CLI (como troca de canal). O histórico do chat é mantido e a sessão é retomada quando possível.",
+    "success": "Agente reconectado",
+    "failed": "Falha ao reconectar o agente",
+    "initializingTooltip": "O agente está sendo inicializado. Reconecte quando estiver pronto",
+    "processingTooltip": "Aguarde a resposta atual terminar antes de reconectar"
+  },
+  "connection": {
+    "title": "Conecte o modelo do assistente primeiro",
+    "noApiModel": "Antes de usar este assistente, configure o provedor, a chave de API e o modelo. Você também pode usar uma conexão salva.",
+    "modelUnavailable": "O modelo selecionado foi removido ou desativado. Ative-o ou escolha um modelo disponível na Configuração padrão do assistente.",
+    "agentUnavailable": "O Agent local deste assistente não está instalado ou não consegue se conectar. Confira a instalação e o login nas configurações de Agent.",
+    "checkFailed": "Não foi possível ler as configurações de conexão. Verifique novamente mais tarde. Seu texto e os membros selecionados serão mantidos.",
+    "configureApi": "Configurar API do modelo",
+    "manageAgent": "Verificar Agent local",
+    "sharedHint": "Se você já fez login na CLI local, não precisa informar a chave de API novamente. Selecione essa CLI em Motor → Agent no assistente. Salvar as configurações da API não verifica a conexão nem a cota.",
+    "resumeHint": "Após configurar, feche as configurações e clique novamente em Iniciar ou Criar equipe. Seu texto e os membros serão mantidos.",
+    "cliHint": "Este assistente usa uma CLI local. Certifique-se de ter feito login nela; não é necessário configurar a chave de API novamente no Product Dream Factory.",
+    "setupTitle": "Configurar API do modelo · {{names}}"
+  }
+}

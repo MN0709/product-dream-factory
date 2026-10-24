@@ -1,0 +1,72 @@
+{
+  "health": {
+    "detectedError": "Erreur détectée avec l'agent actuel ({{agent}})",
+    "autoSwitching": ". Le système va tenter de basculer automatiquement.",
+    "evaluating": "Évaluation de la latence réseau et de la disponibilité du modèle...",
+    "checking": "Vérification du point de terminaison {{agent}}...",
+    "foundBest": "Meilleure alternative trouvée",
+    "recommendSwitch": "Recommandé",
+    "available": "Disponible",
+    "lowLatency": "Latence faible",
+    "mediumLatency": "Latence moyenne",
+    "highLatency": "Latence élevée",
+    "bestMatch": "Meilleure correspondance",
+    "noAvailable": "Aucun agent disponible dans l'environnement actuel",
+    "checkConfig": "Veuillez vérifier la configuration ou réessayer plus tard"
+  },
+  "setup": {
+    "connectionError": "Erreur de connexion",
+    "notConfigured": "{{agent}} n'est pas configuré",
+    "authRequired": "Une authentification ou une clé API est requise pour utiliser cet agent.",
+    "findingAlternatives": "Recherche d'alternatives disponibles...",
+    "checkingAgent": "Vérification de {{agent}}...",
+    "alternativesFound": "{{count}} alternatives disponibles trouvées",
+    "autoSwitching": "Basculement automatique vers le meilleur agent disponible...",
+    "configError": "Erreur de configuration. Veuillez vérifier vos paramètres ou sélectionner une alternative :",
+    "noAlternatives": "Aucun agent disponible trouvé",
+    "configureFirst": "Veuillez d'abord configurer un agent dans les Paramètres.",
+    "switching": "Changement d'agent..."
+  },
+  "model": {
+    "switchSuccess": "Le modèle a changé avec succès",
+    "switchFailed": "Échec du changement de modèle",
+    "searchPlaceholder": "Rechercher des modèles",
+    "noResults": "Aucun modèle correspondant"
+  },
+  "config": {
+    "setting": "Application du paramètre...",
+    "commandAck": "Commande envoyée, mais l'état n'est pas confirmé. Actualisez ou réessayez plus tard.",
+    "timeout": "Le délai de confirmation du paramètre a expiré. L'état précédent est toujours affiché.",
+    "busy": "Un autre paramètre est en cours d'application. Réessayez plus tard.",
+    "failed": "Échec de l'application du paramètre. L'état précédent est toujours affiché."
+  },
+  "thoughtLevel": {
+    "label": "Niveau de réflexion",
+    "switchSuccess": "Niveau de réflexion changé",
+    "switchFailed": "Échec du changement de niveau de réflexion"
+  },
+  "warmup": {
+    "clickToWake": "Cliquez pour réveiller ce membre"
+  },
+  "runtimeRestart": {
+    "tooltip": "Reconnecter l'agent",
+    "confirmContent": "Redémarre le processus de l'agent pour qu'il prenne en compte les changements externes de configuration CLI (comme un changement de canal). L'historique du chat est conservé et la session est reprise si possible.",
+    "success": "Agent reconnecté",
+    "failed": "Échec de la reconnexion de l'agent",
+    "initializingTooltip": "L'agent est en cours d'initialisation. Reconnectez-le lorsqu'il sera prêt",
+    "processingTooltip": "Attendez la fin de la réponse en cours avant de reconnecter"
+  },
+  "connection": {
+    "title": "Connectez d'abord le modèle de l'assistant",
+    "noApiModel": "Avant d’utiliser cet assistant, configurez le fournisseur, la clé API et le modèle. Vous pouvez réutiliser une connexion enregistrée.",
+    "modelUnavailable": "Le modèle sélectionné a été supprimé ou désactivé. Activez-le ou choisissez un modèle disponible dans la Configuration par défaut de l'assistant.",
+    "agentUnavailable": "L'agent local de cet assistant n'est pas installé ou ne peut pas se connecter. Vérifiez l'installation et la connexion au compte dans les paramètres des agents.",
+    "checkFailed": "Impossible de lire les paramètres de connexion. Réessayez plus tard. Votre texte et les membres sélectionnés seront conservés.",
+    "configureApi": "Configurer l'API du modèle",
+    "manageAgent": "Vérifier l'agent local",
+    "sharedHint": "Si vous êtes déjà connecté dans la CLI locale, inutile de saisir à nouveau la clé API. Sélectionnez cette CLI dans Moteur → Agent principal de l'assistant. Enregistrer les paramètres API ne vérifie ni la connexion ni le quota.",
+    "resumeHint": "Après la configuration, fermez les paramètres et cliquez à nouveau sur Démarrer ou Créer une équipe. Votre texte et les membres seront conservés.",
+    "cliHint": "Cet assistant utilise une CLI locale. Assurez-vous d'y être connecté ; inutile de configurer à nouveau la clé API dans Product Dream Factory.",
+    "setupTitle": "Configurer l’API du modèle · {{names}}"
+  }
+}

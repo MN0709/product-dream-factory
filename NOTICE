@@ -1,0 +1,51 @@
+产品梦工厂 / Product Dream Factory
+Repository: https://github.com/MN0709/product-dream-factory
+
+This distribution presents the software as Product Dream Factory and includes
+changes to branding, the desktop interface, navigation, and selected
+interactions. Existing project workflow and model comparison capabilities
+remain under their applicable prior notices. New additions and modifications
+are licensed under the Apache License, Version 2.0, to the extent their
+respective authors own them. No ownership of pre-existing code or third-party
+material is claimed. The applicable earlier notice follows.
+
+--- Prior notice retained for applicable code and materials ---
+
+产品经理工作台 / Product Manager Workbench
+
+Product design and custom development: 周承健
+Maintainer: https://github.com/Zhouchengjian-user
+Repository: https://github.com/Zhouchengjian-user/product-manager-workbench
+
+Copyright 2026 周承健
+This notice applies only to original additions and modifications in this
+fork to the extent owned by 周承健. These code contributions are licensed
+under the Apache License, Version 2.0. It does not claim ownership of
+upstream code, third-party material, or underlying components.
+
+Upstream projects:
+- AionUi: https://github.com/iOfficeAI/AionUi
+- AionCore: https://github.com/iOfficeAI/AionCore
+
+Both upstream LICENSE files contain:
+Copyright 2025 AionUi (aionui.com)
+Licensed under the Apache License, Version 2.0.
+
+The upstream LICENSE files and existing source copyright notices are
+retained. Other bundled third-party notices and licenses continue to apply.
+See docs/MODIFICATIONS.md for the file-by-file customization inventory and
+upstream baseline commits. This root NOTICE is added by this fork; it is
+not presented as a NOTICE file supplied by either upstream project.
+
+The product name and presentation identify this customized distribution.
+No upstream endorsement or third-party trademark rights are claimed.
+
+Selected draft-protection, assistant-setup, revision-review, glass-surface,
+navigation, homepage, and interaction-motion changes are
+adapted from Foundry (https://github.com/17lijunyi/Foundry), maintained by
+https://github.com/17lijunyi, commit 5d6de55739de135bdf73cae05c342fa3bea3edd4.
+Foundry-specific original additions and modifications are distributed under
+the Apache License, Version 2.0. Existing copyright notices are retained.
+Local adaptations preserve Product Dream Factory branding, existing recent
+workspaces and team behavior, extend rejected-send file recovery, and retain
+accessible reduced-motion and reduced-transparency fallbacks.
